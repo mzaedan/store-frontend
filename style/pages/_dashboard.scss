@@ -44,7 +44,7 @@
     font-size: 16px;
     color: #c5c5c5;
 
-    &active {
+    &.active {
       background: linear-gradient(
         270deg,
         rgba(255, 113, 88, 0.32) 2%,
@@ -102,6 +102,23 @@
       font-size: 16px;
       line-height: 24px;
       color: #9191a9;
+    }
+
+    .nav-pills {
+      .nav-link {
+        font-weight: normal;
+        font-size: 18px;
+        color: #9191a9;
+        border-radius: 0;
+
+        &.active {
+          font-weight: 500;
+          font-size: 18px;
+          color: #0c0d36;
+          border-bottom: 2px solid #0c0d36;
+          background: none;
+        }
+      }
     }
   }
 }

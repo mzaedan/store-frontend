@@ -9497,7 +9497,7 @@ footer p {
   font-size: 16px;
   color: #c5c5c5;
 }
-.page-dashboard .list-group-itemactive {
+.page-dashboard .list-group-item.active {
   background: linear-gradient(270deg, rgba(255, 113, 88, 0.32) 2%, rgba(255, 255, 255, 0) 100%);
   border-right: 4px solid #ff7158;
   color: #0c0d36;
@@ -9541,6 +9541,19 @@ footer p {
   font-size: 16px;
   line-height: 24px;
   color: #9191a9;
+}
+.page-dashboard .section-content .nav-pills .nav-link {
+  font-weight: normal;
+  font-size: 18px;
+  color: #9191a9;
+  border-radius: 0;
+}
+.page-dashboard .section-content .nav-pills .nav-link.active {
+  font-weight: 500;
+  font-size: 18px;
+  color: #0c0d36;
+  border-bottom: 2px solid #0c0d36;
+  background: none;
 }
 
 .component-categories {
@@ -9635,6 +9648,30 @@ footer p {
   font-size: 32px;
   line-height: 48px;
   color: #0c0d36;
+}
+
+.card-list {
+  margin-bottom: 10px;
+}
+.card-list .card-body {
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 40px;
+  color: #0c0d36;
+}
+
+.card-dashboard-product {
+  margin-bottom: 15px;
+}
+.card-dashboard-product .product-title {
+  font-weight: normal;
+  font-size: 18px;
+  color: #0c0d36;
+}
+.card-dashboard-product .product-category {
+  font-weight: normal;
+  font-size: 16px;
+  color: #c5c5c5;
 }
 
 .slide-fade-enter-active {
